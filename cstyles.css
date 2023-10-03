@@ -28,16 +28,6 @@
     font-family: Arial;
   }
 
-  button {
-    width: 150px;
-    height: 150px;
-    font-size: 50px;
-    background-color: #00b7ff;
-    border: 5px solid black;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-
   button:hover {
     background-color: #008bc2;
   }
