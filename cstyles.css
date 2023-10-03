@@ -1,0 +1,43 @@
+  body {
+    background-color: #e0e0e0;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+  }
+
+  .jumbotron {
+    background-color: #7ee1d2;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .section {
+    padding: 0.5rem 2rem 1rem 2rem;
+  }
+
+  @font-face {
+    font-family: Arial;
+    src: url(sansation_light.woff);
+  }
+
+  div {
+    font-family: Arial;
+  }
+
+  button {
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    background-color: #00b7ff;
+    border: 5px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #008bc2;
+  }
