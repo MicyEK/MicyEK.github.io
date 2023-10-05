@@ -7,61 +7,7 @@
         <link href="cstyles.css"rel="stylesheet">
         <title>EK Studios Clicker</title>
 
-        <script>
-        score = 0;
-        power = 1;
-        cps = 0;
-
-        function hello() {
-            score = score + power;
-
-            document.querySelector("h1").innerHTML=score
-            
-            if(score == 7122010){
-                alert("You have found my birthday July 12 2010")
-            }
-        }
-
-        function powera() {
-            if(score>9){
-                power ++;
-                score = score - 10;
-                document.querySelector("h1").innerHTML=score
-            } else{
-                alert("You need a score of 10 to buy this upgrade.")
-            }
-        }
-
-        function powerb() {
-            if(score>99){
-                power = power + 10;
-                score = score - 100;
-                document.querySelector("h1").innerHTML=score
-            } else{
-                alert("You need a score of 100 to buy this upgrade.")
-            }
-        }
-
-        function powerc() {
-            if(score>999){
-                power = power + 100;
-                score = score - 1000;
-                document.querySelector("h1").innerHTML=score
-            } else{
-                alert("You need a score of 1000 to buy this upgrade.")
-            }
-        }
-
-        function powerd() {
-            if(score>9999){
-                power = power + 1000;
-                score = score - 10000;
-                document.querySelector("h1").innerHTML=score
-            } else{
-                alert("You need a score of 10000 to buy this upgrade.")
-            }
-        }
-        </script>
+        <script src="clicker.js"></script>
     </head>
     <body>
         <div class="jumbotron">
@@ -98,16 +44,19 @@
                             cursor: pointer;
                         }
                     </style>
-                    <button2 onclick="powera()">+1 Power</button2>
-                </p>
-                <p>
-                    <button2 onclick="powerb()">+10 Power</button2>
-                </p>
-                <p>
-                    <button2 onclick="powerc()">+100 Power</button2>
-                </p>
-                <p>
-                    <button2 onclick="powerd()">+1000 Power</button2>
+                    <p>
+                        <button2 onclick="powera()">+1 Power</button2>
+
+                        <button2 onclick="powerb()">+10 Power</button2>
+
+                        <button2 onclick="powerc()">+100 Power</button2>
+
+                        <button2 onclick="powerd()">+1000 Power</button2>
+
+                        <button2 onclick="powere()">+10000 Power</button2>
+
+                        <button2 onclick="powerf()">+100000 Power</button2>
+                    </p>
                 </p>
             </div>
         </div>
