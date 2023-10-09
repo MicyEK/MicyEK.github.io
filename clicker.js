@@ -10,7 +10,7 @@ if (localStorage.stgpower >= 0){
     power = 1;
 }
 
-window.onload = function exampleFunction() { 
+window.onload = function exampleFunction() {
     score = Number(localStorage.stgscore);
     power = Number(localStorage.stgpower);
     document.querySelector("h1").innerHTML=score
@@ -28,13 +28,14 @@ function hello() {
 }
 
 function powera() {
-if(score>9){
+if(score>aprice - 1){
     power ++;
-    score = score - 10;
+    score = score - aprice;
     document.querySelector("h1").innerHTML=score
     localStorage.stgpower = power;
+    localStorage.stgscore = score;
     } else{
-        alert("You need a score of 10 to buy this upgrade.")
+        alert(`You need a score of ${aprice} to buy this upgrade.`)
     }
 }
 
@@ -44,6 +45,7 @@ function powerb() {
         score = score - 100;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
+        localStorage.stgscore = score;
     } else{
         alert("You need a score of 100 to buy this upgrade.")
     }
@@ -55,6 +57,7 @@ function powerc() {
         score = score - 1000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
+        localStorage.stgscore = score;
     } else{
         alert("You need a score of 1000 to buy this upgrade.")
     }
@@ -66,6 +69,7 @@ function powerd() {
         score = score - 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
+        localStorage.stgscore = score;
     } else{
         alert("You need a score of 10000 to buy this upgrade.")
     }
@@ -77,6 +81,7 @@ function powere() {
         score = score - 100000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
+        localStorage.stgscore = score;
     } else{
         alert("You need a score of 100000 to buy this upgrade.")
     }
@@ -88,6 +93,7 @@ function powerf() {
         score = score - 1000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
+        localStorage.stgscore = score;
     } else{
         alert("You need a score of 1000000 to buy this upgrade.")
     }
