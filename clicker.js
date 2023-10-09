@@ -10,6 +10,12 @@ if (localStorage.stgpower >= 0){
     power = 1;
 }
 
+window.onload = function exampleFunction() { 
+    score = Number(localStorage.stgscore);
+    power = Number(localStorage.stgpower);
+    document.querySelector("h1").innerHTML=score
+} 
+
 function hello() {
     score = score + power;
 

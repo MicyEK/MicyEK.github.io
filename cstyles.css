@@ -31,12 +31,3 @@
   button:hover {
     background-color: #008bc2;
   }
-
-  footer {
-    font-family: Arial;
-    text-align: center;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
-}
