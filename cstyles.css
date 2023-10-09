@@ -31,3 +31,33 @@
   button:hover {
     background-color: #008bc2;
   }
+
+  button {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background-color: #00b7ff;
+    border: 5px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.up {
+  width: 100px;
+  height: 40px;
+  font-size: 10px;
+  background-color: #00b7ff;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.poop {
+  width: 90px;
+  height: 40px;
+  font-size: 10px;
+  background-color: #00b7ff;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
