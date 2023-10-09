@@ -35,7 +35,7 @@ if(score>aprice - 1){
     localStorage.stgpower = power;
     localStorage.stgscore = score;
     } else{
-        alert(`You need a score of ${aprice} to buy this upgrade.`)
+        alert("You need a score of 10 to buy this upgrade.")
     }
 }
 
