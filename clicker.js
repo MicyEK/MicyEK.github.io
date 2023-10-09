@@ -28,7 +28,7 @@ function hello() {
 }
 
 function powera() {
-if(score>aprice - 1){
+if(score>9){
     power ++;
     score = score - aprice;
     document.querySelector("h1").innerHTML=score
