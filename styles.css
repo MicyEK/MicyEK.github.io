@@ -112,3 +112,12 @@ a:active {
   background-color: #04AA6D;
   color: white;
 }
+
+footer {
+  font-family: Arial;
+  text-align: center;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+}
