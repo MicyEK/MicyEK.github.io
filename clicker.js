@@ -59,7 +59,7 @@ function powerc() {
         localStorage.stgpower = power;
         localStorage.stgscore = score;
     } else{
-        alert("You need a score of 1000 to buy this upgrade.")
+        alert("You need a score of 1K to buy this upgrade.")
     }
 }
 
@@ -71,7 +71,7 @@ function powerd() {
         localStorage.stgpower = power;
         localStorage.stgscore = score;
     } else{
-        alert("You need a score of 10000 to buy this upgrade.")
+        alert("You need a score of 10K to buy this upgrade.")
     }
 }
 
@@ -83,7 +83,7 @@ function powere() {
         localStorage.stgpower = power;
         localStorage.stgscore = score;
     } else{
-        alert("You need a score of 100000 to buy this upgrade.")
+        alert("You need a score of 100K to buy this upgrade.")
     }
 }
 
@@ -95,6 +95,30 @@ function powerf() {
         localStorage.stgpower = power;
         localStorage.stgscore = score;
     } else{
-        alert("You need a score of 1000000 to buy this upgrade.")
+        alert("You need a score of 1M to buy this upgrade.")
+    }
+}
+
+function powerg() {
+    if(score>9999999){
+        power = power + 1000000;
+        score = score - 10000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+    } else{
+        alert("You need a score of 10M to buy this upgrade.")
+    }
+}
+
+function powerh() {
+    if(score>99999999){
+        power = power + 10000000;
+        score = score - 100000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+    } else{
+        alert("You need a score of 100M to buy this upgrade.")
     }
 }
