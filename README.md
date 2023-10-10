@@ -5,15 +5,18 @@
 
 
 ## My contacts are
-- [youtube]
+- [Youtube]
 
-- https://www.youtube.com/@MicyEKART
+- [Art Channel]
 
-- https://discord.com/invite/c24Yr9TE2W
+- [Discord]
 
 
 # My Website is at
-- https://micyek.github.io/
+- [My Site]
 
 
 [Youtube]: https://www.youtube.com/channel/UCN64HS7m4tB7DhXaOz44_Ow
+[Art Channel]: https://www.youtube.com/@MicyEKART
+[Discord]: https://discord.com/invite/c24Yr9TE2W
+[My Site]: https://micyek.github.io
