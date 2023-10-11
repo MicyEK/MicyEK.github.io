@@ -121,3 +121,7 @@ footer {
   position: fixed;
   bottom: 0pt;
 }
+
+button:active {
+  transform: scale(0.8)
+}
