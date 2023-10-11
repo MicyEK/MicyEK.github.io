@@ -122,6 +122,6 @@ footer {
   bottom: 0pt;
 }
 
-button:active {
+.button:active {
   transform: scale(0.8)
 }
