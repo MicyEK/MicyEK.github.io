@@ -216,3 +216,39 @@ function powerp() {
         alert("You need a score of 10Q to buy this upgrade.")
     }
 }
+
+function powerq() {
+    if(score>99999999999999999){
+        power = power + 10000000000000000;
+        score = score - 100000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+    } else{
+        alert("You need a score of 100Q to buy this upgrade.")
+    }
+}
+
+function powerr() {
+    if(score>999999999999999999){
+        power = power + 100000000000000000;
+        score = score - 1000000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+    } else{
+        alert("You need a score of 1Qu to buy this upgrade.")
+    }
+}
+
+function powers() {
+    if(score>9999999999999999999){
+        power = power + 1000000000000000000;
+        score = score - 10000000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+    } else{
+        alert("You need a score of 10Qu to buy this upgrade.")
+    }
+}
