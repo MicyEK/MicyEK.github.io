@@ -41,12 +41,12 @@ body {
   }
 
 @font-face {
-  font-family: Arial;
+  font-family: sans-serif;
   src: url(sansation_light.woff);
 }
 
 div {
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
 button {
