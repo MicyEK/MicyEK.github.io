@@ -11,6 +11,8 @@
 
 - [Discord]
 
+- [TikTok]
+
 
 # My Website is at
 - [My Site]
@@ -20,3 +22,4 @@
 [Art Channel]: https://www.youtube.com/@MicyEKART
 [Discord]: https://discord.com/invite/c24Yr9TE2W
 [My Site]: https://micyek.github.io
+[TikTok]: https://www.tiktok.com/@micy_ek
