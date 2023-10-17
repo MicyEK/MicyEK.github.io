@@ -90,6 +90,8 @@
   border: 5px solid black;
   border-radius: 100px;
   cursor: pointer;
+  display: block;
+  margin: auto;
   transition: transform 0.2s ease;
 }
 
