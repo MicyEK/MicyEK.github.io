@@ -1,4 +1,4 @@
-![Slimeuto Trailer 1](https://github.com/MicyEK/MicyEK.github.io/assets/115043168/e188e13a-d8b3-471a-9ac2-adbe3c26ba74)## Hi I'm Micy EK and this is the source code for my website 👋🏼
+## Hi I'm Micy EK and this is the source code for my website 👋🏼
 
 
 ## I am a Programmer / Gamer / Youtuber / Hacker / Artist
