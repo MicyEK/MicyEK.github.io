@@ -135,7 +135,3 @@ footer {
 .b:active {
   transform: scale(0.8)
 }
-
-h1:hover {
-  transform: scale(1.1)
-}
