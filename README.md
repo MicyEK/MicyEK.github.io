@@ -15,6 +15,8 @@
 
 - [NewGrounds]
 
+- [Itch.io]
+
 
 # My Website is at
 - [My Site]
@@ -26,4 +28,4 @@
 [My Site]: https://micyek.github.io
 [TikTok]: https://www.tiktok.com/@micy_ek
 [NewGrounds]: https://micyekyt.newgrounds.com/
-
+[Itch.io]: https://micyek.itch.io/
