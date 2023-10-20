@@ -101,9 +101,11 @@ function powerg() {
     if(score>9999999){
         power = power + 1000000;
         score = score - 10000000;
+        cps = cps + 1;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10M to buy this upgrade.")
     }
@@ -113,9 +115,11 @@ function powerh() {
     if(score>99999999){
         power = power + 10000000;
         score = score - 100000000;
+        cps = cps + 10;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100M to buy this upgrade.")
     }
@@ -125,9 +129,11 @@ function poweri() {
     if(score>999999999){
         power = power + 100000000;
         score = score - 1000000000;
+        cps = cps + 100;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1B to buy this upgrade.")
     }
@@ -137,9 +143,11 @@ function powerj() {
     if(score>9999999999){
         power = power + 1000000000;
         score = score - 10000000000;
+        cps = cps + 1000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10B to buy this upgrade.")
     }
@@ -149,9 +157,11 @@ function powerk() {
     if(score>99999999999){
         power = power + 10000000000;
         score = score - 100000000000;
+        cps = cps + 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100B to buy this upgrade.")
     }
@@ -161,9 +171,11 @@ function powerl() {
     if(score>999999999999){
         power = power + 100000000000;
         score = score - 1000000000000;
+        cps = cps + 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1T to buy this upgrade.")
     }
@@ -173,9 +185,11 @@ function powerm() {
     if(score>9999999999999){
         power = power + 1000000000000;
         score = score - 10000000000000;
+        cps = cps + 100000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10T to buy this upgrade.")
     }
@@ -185,9 +199,11 @@ function powern() {
     if(score>99999999999999){
         power = power + 10000000000000;
         score = score - 100000000000000;
+        cps = cps + 1000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100T to buy this upgrade.")
     }
@@ -197,9 +213,11 @@ function powero() {
     if(score>999999999999999){
         power = power + 100000000000000;
         score = score - 1000000000000000;
+        cps = cps + 10000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1Q to buy this upgrade.")
     }
@@ -209,9 +227,11 @@ function powerp() {
     if(score>9999999999999999){
         power = power + 1000000000000000;
         score = score - 10000000000000000;
+        cps = cps + 100000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10Q to buy this upgrade.")
     }
@@ -221,9 +241,11 @@ function powerq() {
     if(score>99999999999999999){
         power = power + 10000000000000000;
         score = score - 100000000000000000;
+        cps = cps + 1000000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100Q to buy this upgrade.")
     }
@@ -233,9 +255,11 @@ function powerr() {
     if(score>999999999999999999){
         power = power + 100000000000000000;
         score = score - 1000000000000000000;
+        cps = cps + 10000000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1Qu to buy this upgrade.")
     }
@@ -245,9 +269,11 @@ function powers() {
     if(score>9999999999999999999){
         power = power + 1000000000000000000;
         score = score - 10000000000000000000;
+        cps = cps + 100000000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10Qu to buy this upgrade.")
     }
@@ -257,9 +283,11 @@ function powert() {
     if(score>99999999999999999999){
         power = power + 10000000000000000000;
         score = score - 100000000000000000000;
+        cps = cps + 1000000000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100Qu to buy this upgrade.")
     }
@@ -269,9 +297,11 @@ function poweru() {
     if(score>999999999999999999999){
         power = power + 100000000000000000000;
         score = score - 1000000000000000000000;
+        cps = cps + 10000000000000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
+        localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1S to buy this upgrade.")
     }
