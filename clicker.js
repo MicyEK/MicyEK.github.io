@@ -334,3 +334,45 @@ function powerw() {
         alert("You need a score of 100S to buy this upgrade.")
     }
 }
+
+function powerx() {
+    if(score>999999999999999999999999){
+        power = power + 100000000000000000000000;
+        score = score - 1000000000000000000000000;
+        cps = cps + 10000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+        localStorage.stgcps = cps;
+    } else{
+        alert("You need a score of 1Sp to buy this upgrade.")
+    }
+}
+
+function powery() {
+    if(score>9999999999999999999999999){
+        power = power + 1000000000000000000000000;
+        score = score - 10000000000000000000000000;
+        cps = cps + 100000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+        localStorage.stgcps = cps;
+    } else{
+        alert("You need a score of 10Sp to buy this upgrade.")
+    }
+}
+
+function powerz() {
+    if(score>99999999999999999999999999){
+        power = power + 10000000000000000000000000;
+        score = score - 100000000000000000000000000;
+        cps = cps + 1000000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+        localStorage.stgcps = cps;
+    } else{
+        alert("You need a score of 100Sp to buy this upgrade.")
+    }
+}
