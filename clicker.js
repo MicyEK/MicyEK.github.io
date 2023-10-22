@@ -404,3 +404,17 @@ function powerab() {
         alert("You need a score of 10O to buy this upgrade.")
     }
 }
+
+function powerac() {
+    if(score>99999999999999999999999999999){
+        power = power + 10000000000000000000000000000;
+        score = score - 100000000000000000000000000000;
+        cps = cps + 1000000000000000000000;
+        document.querySelector("h1").innerHTML=score
+        localStorage.stgpower = power;
+        localStorage.stgscore = score;
+        localStorage.stgcps = cps;
+    } else{
+        alert("You need a score of 100O to buy this upgrade.")
+    }
+}
