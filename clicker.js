@@ -10,6 +10,12 @@ if (localStorage.stgpower >= 0){
     power = 1;
 }
 
+if (localStorage.stgm >= 0){
+    m = Number(localStorage.stgm);
+} else {
+    m = 1;
+}
+
 window.onload = function exampleFunction() {
     document.querySelector("h1").innerHTML=score
 } 
@@ -18,7 +24,7 @@ function hello() {
     score = score + power;
 
     document.querySelector("h1").innerHTML=score
-    localStorage.stgscore = score;
+    localStorage.stgscore = score*(m/2);
             
     if(score == 7122010){
         alert("You have found my birthday July 12 2010")
@@ -256,10 +262,12 @@ function powerr() {
         power = power + 100000000000000000;
         score = score - 1000000000000000000;
         cps = cps + 10000000000;
+        m = m + 10;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 1Qu to buy this upgrade.")
     }
@@ -270,10 +278,12 @@ function powers() {
         power = power + 1000000000000000000;
         score = score - 10000000000000000000;
         cps = cps + 100000000000;
+        m = m + 10;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 10Qu to buy this upgrade.")
     }
@@ -284,10 +294,12 @@ function powert() {
         power = power + 10000000000000000000;
         score = score - 100000000000000000000;
         cps = cps + 1000000000000;
+        m = m + 10;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 100Qu to buy this upgrade.")
     }
@@ -298,10 +310,12 @@ function poweru() {
         power = power + 100000000000000000000;
         score = score - 1000000000000000000000;
         cps = cps + 10000000000000;
+        m = m + 100;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 1S to buy this upgrade.")
     }
@@ -312,10 +326,12 @@ function powerv() {
         power = power + 1000000000000000000000;
         score = score - 10000000000000000000000;
         cps = cps + 100000000000000;
+        m = m + 100;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 10S to buy this upgrade.")
     }
@@ -326,10 +342,12 @@ function powerw() {
         power = power + 10000000000000000000000;
         score = score - 100000000000000000000000;
         cps = cps + 1000000000000000;
+        m = m + 100;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 100S to buy this upgrade.")
     }
@@ -340,10 +358,12 @@ function powerx() {
         power = power + 100000000000000000000000;
         score = score - 1000000000000000000000000;
         cps = cps + 10000000000000000;
+        m = m + 1000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 1Sp to buy this upgrade.")
     }
@@ -354,10 +374,12 @@ function powery() {
         power = power + 1000000000000000000000000;
         score = score - 10000000000000000000000000;
         cps = cps + 100000000000000000;
+        m = m + 1000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 10Sp to buy this upgrade.")
     }
@@ -368,10 +390,12 @@ function powerz() {
         power = power + 10000000000000000000000000;
         score = score - 100000000000000000000000000;
         cps = cps + 1000000000000000000;
+        m = m + 1000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 100Sp to buy this upgrade.")
     }
@@ -382,10 +406,12 @@ function poweraa() {
         power = power + 100000000000000000000000000;
         score = score - 1000000000000000000000000000;
         cps = cps + 10000000000000000000;
+        m = m + 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 1O to buy this upgrade.")
     }
@@ -396,10 +422,12 @@ function powerab() {
         power = power + 1000000000000000000000000000;
         score = score - 10000000000000000000000000000;
         cps = cps + 100000000000000000000;
+        m = m + 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 10O to buy this upgrade.")
     }
@@ -410,10 +438,12 @@ function powerac() {
         power = power + 10000000000000000000000000000;
         score = score - 100000000000000000000000000000;
         cps = cps + 1000000000000000000000;
+        m = m + 10000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 100O to buy this upgrade.")
     }
@@ -424,10 +454,12 @@ function powerad() {
         power = power + 100000000000000000000000000000;
         score = score - 1000000000000000000000000000000;
         cps = cps + 10000000000000000000000;
+        m = m + 100000;
         document.querySelector("h1").innerHTML=score
         localStorage.stgpower = power;
         localStorage.stgscore = score;
         localStorage.stgcps = cps;
+        localStorage.stgm = m;
     } else{
         alert("You need a score of 1N to buy this upgrade.")
     }

@@ -8,7 +8,7 @@ setInterval(clickauto, 1000);
 
 function clickauto() {
   const d = new Date();
-  score = score + cps;
+  score = score + cps*(m/2);
   document.querySelector("h1").innerHTML=score
     localStorage.stgscore = score;
 }
