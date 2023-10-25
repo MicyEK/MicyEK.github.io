@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cubano;
+  src: url(Cubano.ttf);
+}
+  
   body {
     background-color: #e0e0e0;
     color: #212529;
@@ -20,7 +25,7 @@
   }
 
   html {
-    font-family: 'Alatsi';
+    font-family: 'Cubano','Alatsi';
   }
 
   button:hover {
@@ -35,7 +40,7 @@
     border: 5px solid black;
     border-radius: 100px;
     cursor: pointer;
-    font-family: 'Alatsi';
+    font-family: 'Cubano','Alatsi';
 }
 
 .up {
