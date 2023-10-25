@@ -18,6 +18,7 @@ if (localStorage.stgm >= 0){
 
 window.onload = function exampleFunction() {
     document.querySelector("h1").innerHTML=score
+    console.log("Game Loaded");
 } 
 
 function hello() {
@@ -40,6 +41,7 @@ if(score>9){
     localStorage.stgscore = score;
     } else{
         alert("You need a score of 10 to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -52,6 +54,7 @@ function powerb() {
         localStorage.stgscore = score;
     } else{
         alert("You need a score of 100 to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -64,6 +67,7 @@ function powerc() {
         localStorage.stgscore = score;
     } else{
         alert("You need a score of 1K to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -114,6 +118,7 @@ function powerg() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10M to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -128,6 +133,7 @@ function powerh() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100M to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -142,6 +148,7 @@ function poweri() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1B to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -156,6 +163,7 @@ function powerj() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10B to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -170,6 +178,7 @@ function powerk() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100B to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -184,6 +193,7 @@ function powerl() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1T to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -198,6 +208,7 @@ function powerm() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10T to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -212,6 +223,7 @@ function powern() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100T to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -226,6 +238,7 @@ function powero() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 1Q to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -240,6 +253,7 @@ function powerp() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 10Q to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -254,6 +268,7 @@ function powerq() {
         localStorage.stgcps = cps;
     } else{
         alert("You need a score of 100Q to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -270,6 +285,7 @@ function powerr() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 1Qu to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -286,6 +302,7 @@ function powers() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 10Qu to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -302,6 +319,7 @@ function powert() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 100Qu to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -318,6 +336,7 @@ function poweru() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 1S to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -334,6 +353,7 @@ function powerv() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 10S to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -350,6 +370,7 @@ function powerw() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 100S to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -366,6 +387,7 @@ function powerx() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 1Sp to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -382,6 +404,7 @@ function powery() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 10Sp to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -398,6 +421,7 @@ function powerz() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 100Sp to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -414,6 +438,7 @@ function poweraa() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 1O to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -430,6 +455,7 @@ function powerab() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 10O to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -446,6 +472,7 @@ function powerac() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 100O to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
 
@@ -462,5 +489,6 @@ function powerad() {
         localStorage.stgm = m;
     } else{
         alert("You need a score of 1N to buy this upgrade.")
+        console.log("Failed Purchase Reason Low Score");
     }
 }
