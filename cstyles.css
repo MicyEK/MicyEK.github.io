@@ -14,7 +14,7 @@
   }
 
   .jumbotron {
-    background-color: #7ee1d2;
+    background-color: #00b7ff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     text-align: center;
@@ -84,7 +84,7 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #00b7ff;
   color: white;
 }
 
@@ -107,10 +107,6 @@
 
 .up:active {
   transform: scale(0.8)
-}
-
-h1:hover {
-  transform: scale(1.1)
 }
 
 ::-webkit-scrollbar {
