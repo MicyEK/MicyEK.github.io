@@ -154,3 +154,8 @@ a:active {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+::selection {
+  background-color: #16c786;
+  color: #ffffff;
+}
