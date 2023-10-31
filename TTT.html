@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="topnav">
+        <a  href="./">Home</a>
+        <a class="active" href="./games">Games</a>
+        <a href="./social">Social</a>
+        <a href="./shop">Shop</a>
+    </div>
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+    <link href="style.css"rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="font-family">
+            <h1>Tic Tac Toe</h1>
+        </div>
+    </div>
+    
+    <div class='game'></div>
+    <button class="btn" onclick="tic_tac_toe.restart()" title="Restart this game">Restart</button>
+
+    <script src="tic-tac-toe.js"></script>
+    <script>
+        tic_tac_toe.init( document.querySelector('.game') );
+        tic_tac_toe.start();
+    </script>
+    
+</body>
+</html>
