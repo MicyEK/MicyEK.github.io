@@ -5,7 +5,7 @@
 
 body {
     background-color: #e0e0e0;
-    color: #000000;
+    color: #333;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -34,11 +34,11 @@ button {
   height: 30px;
   font-size: 14px;
   background-color: #e0e0e0;
-  border: 2px solid #000000;
+  border: 2px solid #333;
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Cubano','Alasti';
-  color: #000000;
+  color: #333;
 }
 
 button:hover {
@@ -63,7 +63,7 @@ button:hover {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #333;
 }
 
 .topnav a.active {
