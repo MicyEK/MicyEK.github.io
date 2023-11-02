@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #f2f2f2;
     color: #333;
     font-size: 1rem;
     font-weight: 400;
@@ -33,7 +33,7 @@ button {
   width: 100px;
   height: 30px;
   font-size: 14px;
-  background-color: #e0e0e0;
+  background-color: #f2f2f2;
   border: 2px solid #333;
   border-radius: 5px;
   cursor: pointer;
@@ -95,7 +95,7 @@ button:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: #e0e0e0; 
+  background: #f2f2f2; 
 }
 
 ::-webkit-scrollbar-thumb {

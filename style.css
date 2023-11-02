@@ -8,7 +8,7 @@ html {
 }
 
   body {
-    background-color: #e0e0e0;
+    background-color: #f2f2f2;
     color: #333;
     font-size: 1rem;
     font-weight: 400;
@@ -86,7 +86,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #e0e0e0; 
+  background: #f2f2f2; 
 }
 
 ::-webkit-scrollbar-thumb {
