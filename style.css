@@ -142,3 +142,12 @@ button {
 .btn:active {
   transform: scale(0.8)
 }
+
+.topnav:hover a.split {
+  float: left;
+  background-color: #333;
+  color: #02df53;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}

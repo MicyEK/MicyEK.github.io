@@ -119,3 +119,12 @@ button:hover {
   text-decoration: none;
   font-size: 25px;
 }
+
+.topnav:hover a.split {
+  float: left;
+  background-color: #333;
+  color: #02df53;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
