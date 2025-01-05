@@ -15,6 +15,8 @@
 
 
 ## Where you can find my games
+- [Modrinth]
+
 - [NewGrounds]
 
 - [Itch.io]
@@ -31,6 +33,7 @@
 [Discord]: https://discord.com/invite/c24Yr9TE2W
 [My Site]: https://micyek.github.io
 [TikTok]: https://www.tiktok.com/@micy_ek
+[Modrinth]:https://modrinth.com/user/MicyEK
 [NewGrounds]: https://micyekyt.newgrounds.com/
 [Itch.io]: https://micyek.itch.io/
 [Scratch]: https://scratch.mit.edu/users/Michael_EK/
